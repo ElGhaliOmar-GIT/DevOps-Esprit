@@ -89,7 +89,7 @@ public class Contrat implements Serializable{
     public Etudiant getEtudiant() {
         return etudiant;
     }
-    //comment
+    //commentaiiireee 
 
 
     public void setEtudiant(Etudiant etudiant) {
