@@ -89,6 +89,8 @@ public class Contrat implements Serializable{
     public Etudiant getEtudiant() {
         return etudiant;
     }
+    //comment
+
 
     public void setEtudiant(Etudiant etudiant) {
         this.etudiant = etudiant;
