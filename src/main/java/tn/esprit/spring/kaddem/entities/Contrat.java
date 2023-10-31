@@ -90,6 +90,7 @@ public class Contrat implements Serializable{
         return etudiant;
     }
     //comment
+    //comment2
 
 
     public void setEtudiant(Etudiant etudiant) {
