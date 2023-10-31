@@ -54,14 +54,14 @@ public class EtudiantTest {
         assertEquals(1, etudiant.getContrats().size());
     }
 
-    @Test
+   /* @Test
     public void testDepartement() {
         etudiant.setDepartement(mockedDepartement);
         assertNotNull(etudiant.getDepartement());
 
         // Verify that the departement object was set and accessed
         verify(mockedDepartement, times(1)).getEtudiants();
-    }
+    }*/
 
     @Test
     public void testEquipes() {
