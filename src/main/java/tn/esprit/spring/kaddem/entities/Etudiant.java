@@ -26,7 +26,7 @@ public class Etudiant implements Serializable{
     @ManyToOne
     @JsonIgnore
     private Departement departement;
-  //  @ManyToMany(cascade =CascadeType.ALL)
+  //  @ManyToMany(cascade =CascadeType.ALL)test
     @ManyToMany(mappedBy="etudiants")
 
     @JsonIgnore
