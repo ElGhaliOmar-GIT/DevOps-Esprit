@@ -64,7 +64,7 @@ public class EtudiantTest {
     }*/
 
     @Test
-    public void testEquipes() {
+    public void testEtudiantwithEquipe() {
         List<Equipe> equipes = new ArrayList<>();
 
         // Create instances of Equipe and add them to the list
