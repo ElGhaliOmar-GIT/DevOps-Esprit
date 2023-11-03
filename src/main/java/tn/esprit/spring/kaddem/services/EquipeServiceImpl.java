@@ -29,8 +29,8 @@ public class EquipeServiceImpl implements IEquipeService{
 	}
 
 	public  void deleteEquipe(Integer idEquipe){
-		Equipe e=retrieveEquipe(idEquipe);
-		equipeRepository.delete(e);
+		//Equipe e=retrieveEquipe(idEquipe);
+		equipeRepository.deleteById(idEquipe);
 	}
 
 	public Equipe retrieveEquipe(Integer equipeId){
