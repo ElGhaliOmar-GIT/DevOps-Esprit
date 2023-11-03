@@ -71,6 +71,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>timesheetdevops</finalName>
     </build>
 
 </project>
