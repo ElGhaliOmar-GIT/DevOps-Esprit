@@ -38,8 +38,8 @@ ContratRepository contratRepository;
 	}
 
 	public  void removeContrat(Integer idContrat){
-		Contrat c=retrieveContrat(idContrat);
-		contratRepository.delete(c);
+		//Contrat c=retrieveContrat(idContrat);
+		contratRepository.deleteById(idContrat);
 	}
 
 
