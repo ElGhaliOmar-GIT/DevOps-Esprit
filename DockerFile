@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
-EXPOSE 8082
-ADD target/Kaddem-0.0.1.jar Kaddem-0.0.1.jar
-ENTRYPOINT ["java","-jar","/Kaddem-1.0.jar"]
+RUN apk --no-cache add curl
+RUN curl -u admin:nexus -o kaddem.jar "http://192.168.2.136:8081/#browse/browse:maven-releases:tn%2Fesprit%2Fspring%2Fkaddem%2F0.0.1%2Fkaddem-0.0.1.jar" -L
+ENTRYPOINT ["java","-jar","/Kaddem.jar"]
+EXPOSE 8089
