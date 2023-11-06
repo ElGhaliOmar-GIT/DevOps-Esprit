@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.kaddem.EquipeTest" time="1.214" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.kaddem.EquipeTest" time="1.253" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="IBM Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -81,8 +81,8 @@
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.vendor.version" value="17.0.9.0-m1"/>
   </properties>
-  <testcase name="testupdateEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="1.075"/>
+  <testcase name="testupdateEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="1.101"/>
   <testcase name="testdeleteEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.001"/>
-  <testcase name="testAddEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.001"/>
-  <testcase name="testretrieveAllEquipes" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.007"/>
+  <testcase name="testAddEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.003"/>
+  <testcase name="testretrieveAllEquipes" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.008"/>
 </testsuite>
