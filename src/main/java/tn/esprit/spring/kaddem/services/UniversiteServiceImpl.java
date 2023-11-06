@@ -19,7 +19,7 @@ public class UniversiteServiceImpl implements IUniversiteService{
     public UniversiteServiceImpl() {
         // TODO Auto-generated constructor stub
     }
-  public   List<Universite> retrieveAllUniversites(){
+  public List<Universite> retrieveAllUniversites(){
 return (List<Universite>) universiteRepository.findAll();
     }
 
@@ -31,9 +31,9 @@ return  (universiteRepository.save(u));
      return  (universiteRepository.save(u));
     }
 
-  public Universite retrieveUniversite (Integer idUniversite){
-Universite u = universiteRepository.findById(idUniversite).get();
-return  u;
+    public Universite retrieveUniversite (Integer idUniversite){
+        Universite u = universiteRepository.findById(idUniversite).orElseThrow(() -> new RuntimeException("not found"));
+        return  u;
     }
     public  void deleteUniversite(Integer idUniversite){
         universiteRepository.delete(retrieveUniversite(idUniversite));
