@@ -31,7 +31,7 @@ public class UniversiteTest {
     };
 
     @Test
-    public void findUniById() {
+    public void testGetUniById() {
         Mockito.when(uniRepo.findById(Mockito.anyInt())).thenReturn(Optional.of(uniEntity));
         Universite uni = uniService.retrieveUniversite(1);
         Assertions.assertNotNull(uni);
