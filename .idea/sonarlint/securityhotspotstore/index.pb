@@ -9,3 +9,11 @@ l
 <src/main/java/tn/esprit/spring/kaddem/KaddemApplication.java,8\1\818208cca585c231b09f53a0c9018ecb6a93896f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+j
+:src/main/java/tn/esprit/spring/kaddem/entities/Niveau.java,d\3\d3b9da838c57259524e07428eaf7a20fc5ad2a37
+j
+:src/main/java/tn/esprit/spring/kaddem/entities/Equipe.java,f\6\f686a4a649afa8951fa3b40f46d200067afb56cd
+u
+Esrc/main/java/tn/esprit/spring/kaddem/services/EquipeServiceImpl.java,7\3\7313e08c0f93782b1feeb7cad43c3481d811bdf7
+e
+5src/test/java/tn/esprit/spring/kaddem/EquipeTest.java,c\f\cf512eafe82796862e79f9218d4ffa37a20b86d3
