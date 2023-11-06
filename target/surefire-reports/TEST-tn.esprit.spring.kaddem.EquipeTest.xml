@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.kaddem.EquipeTest" time="1.214" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="17.0.9+5"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="openjdk.methodhandles" value="true"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="fr"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\ASUS\.jdks\semeru-17.0.9\bin\default;C:\Users\ASUS\.jdks\semeru-17.0.9\bin"/>
+    <property name="idea.version" value="2023.2.2"/>
+    <property name="sun.boot.library.path" value="C:\Users\ASUS\.jdks\semeru-17.0.9\bin\default;C:\Users\ASUS\.jdks\semeru-17.0.9\bin"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="jdk.extensions.version" value="17.0.9.0-ea"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\ASUS\.jdks\semeru-17.0.9\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="user.country" value="FR"/>
+    <property name="java.home" value="C:\Users\ASUS\.jdks\semeru-17.0.9"/>
+    <property name="java.vm.info" value="JRE 17 Windows 10 amd64-64-Bit Compressed References 20231017_511 (JIT enabled, AOT enabled)&#10;OpenJ9   - 87d042a68&#10;OMR      - fa7b6ddc7&#10;JCL      - 7e7cdc3f699 based on jdk-17.0.9+5"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="v0.41.0-release-87d042a68"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Users\ASUS\.jdks\semeru-17.0.9\bin\default;C:\Users\ASUS\.jdks\semeru-17.0.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="17.0.9+5&#10;JRE 17 Windows 10 amd64-64-Bit Compressed References 20231017_511 (JIT enabled, AOT enabled)&#10;OpenJ9   - 87d042a68&#10;OMR      - fa7b6ddc7&#10;JCL      - 7e7cdc3f699 based on jdk-17.0.9+5"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven3"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS" value="false"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.2.2 install"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.7.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ASUS\Documents\Hadir\Hadir\5SAE\projet devops\DevOps-Esprit"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="C:\Users\ASUS\Documents\Hadir\Hadir\5SAE\projet devops\DevOps-Esprit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="17.0.9.0-m1"/>
+  </properties>
+  <testcase name="testupdateEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="1.051"/>
+  <testcase name="testdeleteEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0"/>
+  <testcase name="testAddEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.002"/>
+  <testcase name="testretrieveAllEquipes" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.008"/>
+</testsuite>
