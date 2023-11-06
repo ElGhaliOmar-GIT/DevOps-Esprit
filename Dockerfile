@@ -1,14 +1,12 @@
-# Étape de construction (stage 1)
-FROM adoptopenjdk/maven-openjdk8 AS build
-WORKDIR /app
-COPY pom.xml .
-RUN mvn dependency:go-offline
-COPY src ./src
-RUN mvn package -DskipTests
+FROM openjdk:8-jdk-alpine
+# Use the official OpenJDK base image
+FROM openjdk:8-jdk-alpine
 
-# Étape d'exécution (stage 2)
-FROM adoptopenjdk/openjdk8
-COPY --from=build /app/target/SkiStationProject-0.0.1-SNAPSHOT.jar /app/app.jar
-WORKDIR /app
-EXPOSE 3306
+# Add your JAR file from the local filesystem to the image
+ADD target/kaddem-1.0.jar app.jar
+
+# Expose the port your application will run on
+EXPOSE 8089
+
+# Define the command to run your application
 CMD ["java", "-jar", "app.jar"]
