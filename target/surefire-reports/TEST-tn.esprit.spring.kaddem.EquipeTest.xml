@@ -81,8 +81,8 @@
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.vendor.version" value="17.0.9.0-m1"/>
   </properties>
-  <testcase name="testupdateEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="1.051"/>
-  <testcase name="testdeleteEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0"/>
-  <testcase name="testAddEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.002"/>
-  <testcase name="testretrieveAllEquipes" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.008"/>
+  <testcase name="testupdateEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="1.075"/>
+  <testcase name="testdeleteEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.001"/>
+  <testcase name="testAddEquipe" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.001"/>
+  <testcase name="testretrieveAllEquipes" classname="tn.esprit.spring.kaddem.EquipeTest" time="0.007"/>
 </testsuite>
