@@ -14,20 +14,10 @@ services:
     volumes:
       - db:/var/lib/mysql
 
-  phpmyadmin:
-    image: phpmyadmin
-    restart: unless-stopped
-    container_name: phpmyadmin
-    env_file: ./.env
-    ports:
-     - 80
-    environment:
-     PMA_HOST: mysqldb
-
   springboot-be:
     depends_on:
       - mysqldb
-    image: siwarbaccouche23/kaddem:0.0.1
+    image: siwarbaccouche23/kaddem:latest
     container_name: springboot-be
     env_file: ./.env
     environment:
