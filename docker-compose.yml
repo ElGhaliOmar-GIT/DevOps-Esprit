@@ -9,18 +9,8 @@ services:
       - "3306:3306"
     volumes:
       - db:/var/lib/mysql
- phpmyadmin:
-    image: phpmyadmin
-    restart: unless-stopped
-    container_name: phpmyadmin
-    env_file: ./.env
-    ports:
-      - "80:80"
-    environment:
-     PMA_HOST: mysqldb
 
-
- Springboot-app:
+  kaddem:
     depends_on:
       - mysqldb
     image: siwarbaccouche23/kaddem:latest
