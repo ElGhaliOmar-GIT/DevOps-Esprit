@@ -10,7 +10,7 @@ services:
     volumes:
       - db:/var/lib/mysql
 
-  Spring-app:
+  kaddem:
     depends_on:
       - mysqldb
     image: siwarbaccouche23/kaddem:latest
