@@ -15,7 +15,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    build: .
+    image: elghaliomar/devops:latest
     container_name: prkaddem
     restart: on-failure
     ports:
