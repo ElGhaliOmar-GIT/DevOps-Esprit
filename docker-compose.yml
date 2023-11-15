@@ -11,9 +11,11 @@ services:
       - db:/var/lib/mysql
 
   Spring-mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile
     depends_on:
       - mysqldb
-    image: siwarbaccouche23/kaddem:latest
     ports:
       - "8089:8089"
     environment:
