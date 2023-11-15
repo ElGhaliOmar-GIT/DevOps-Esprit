@@ -14,12 +14,11 @@ services:
     depends_on:
       - mysqldb
     image: siwarbaccouche23/kaddem:latest
-    restart: on-failure
     ports:
       - "8089:8089"
     environment:
       SPRING_APPLICATION_JSON: '{
-                 "spring.datasource.url"  : "jdbc:mysql://mysqldb:3306/kaddem/db?useSSL=false",
+                 "spring.datasource.url"  : "jdbc:mysql://mysqldb:3306/kaddem/db?&createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                  "spring.datasource.username" : "root",
                  "spring.datasource.password" : null,
                  "spring.jpa.hibernate.ddl-auto" : "update",
