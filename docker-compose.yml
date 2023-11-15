@@ -10,7 +10,7 @@ services:
     volumes:
       - db:/var/lib/mysql
 
-  Spring-mysql:
+  spring-mysql:
     build:
       context: .
       dockerfile: Dockerfile
