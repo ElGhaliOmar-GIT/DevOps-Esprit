@@ -11,9 +11,9 @@ services:
       - db:/var/lib/mysql
 
   spring-mysql:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    container_name: spring-mysql
+    image: "siwarbaccouche23/kaddem:latest"
+    build: .
     depends_on:
       - mysqldb
     ports:
