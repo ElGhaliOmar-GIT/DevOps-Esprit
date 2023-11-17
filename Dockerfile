@@ -2,11 +2,12 @@ FROM openjdk:8-jdk-alpine
 # Use the official OpenJDK base image
 FROM openjdk:8-jdk-alpine
 
-# Add your JAR file from the local filesystem to the image
+# j'ai conteunarisé ma app kaddem-1.0 et je le met dans app.jar
+#et j'ai récupére le jar a partir du dossier target
 ADD target/kaddem-1.0.jar app.jar
 
-# Expose the port your application will run on
+# Expose the port my application will run on
 EXPOSE 8089
 
-# Define the command to run your application
+# Define the command app.jar to run my application
 CMD ["java", "-jar", "app.jar"]

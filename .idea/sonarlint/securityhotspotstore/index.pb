@@ -15,3 +15,8 @@ j
 :src/test/java/tn/esprit/spring/kaddem/ContratTestMock.java,5\8\58852d958eab4e678cf9123066575e3688723f3b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
