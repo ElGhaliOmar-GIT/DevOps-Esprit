@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Trigger Jenkins
         run: |
-          curl -X POST -k http://192.168.100.122:8080/job/ProjectDevops/build?token=kL9$2jP!wQsRzT
+          curl -X POST -k http://192.168.100.122:8080/job/ProjectDevops/build?token=11155d676cb582ea40ecf0d53cd108a6d5
