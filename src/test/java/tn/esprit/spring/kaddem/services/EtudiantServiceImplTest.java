@@ -34,7 +34,7 @@ public class EtudiantServiceImplTest {
 
     @Test
     public void testRetrieveAllEtudiants() {
-        //test
+        //te
         // Create a sample list of Etudiant objects
         List<Etudiant> etudiantList = Collections.singletonList(new Etudiant());
 
