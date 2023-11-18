@@ -104,5 +104,4 @@ public class Etudiant implements Serializable{
     public void setOp(Option op) {
         this.op = op;
     }
-
 }
