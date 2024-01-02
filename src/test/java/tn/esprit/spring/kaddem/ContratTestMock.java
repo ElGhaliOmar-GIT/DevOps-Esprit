@@ -19,7 +19,7 @@ import tn.esprit.spring.kaddem.services.ContratServiceImpl;
 import java.util.ArrayList;
 import java.util.List;
 
-@SpringBootTest
+
 @RunWith(MockitoJUnitRunner.class)   //indique à JUnit d'utiliser le runner MockitoJUnitRunner
 public class ContratTestMock {
 
